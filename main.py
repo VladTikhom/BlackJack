@@ -74,6 +74,8 @@ class Hand:
     def __repr__(self) -> str:
         return f"{self.__class__.__name__} {self.dealer_card} {self.cards}"
 
+class GameStrategy:
+    pass
 
 if __name__ == '__main__':
     deck = Deck()
